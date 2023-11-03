@@ -1,0 +1,25 @@
+# version: "3.8"
+# services:
+#   web:
+#     build:
+#       context: ./frontend
+
+
+#   api:
+#     build:
+#       context: ./backend
+
+#     ports:
+#       - 3001:3001
+#     environment:
+#       DB_URL: mongodb://db/vidly
+
+#   db:
+#     image: mongo:4.0-xenial
+#     ports:
+#       - 27017:27017
+#     volumes:
+#       - fullstack_docker:/data/db
+
+# volumes:
+#   fullstack_docker:
